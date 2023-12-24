@@ -8,8 +8,12 @@ class ProductPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-        body: CustomScrollView(
-      slivers: [GraoAppBar(), ProductPageBody()],
-    ));
+      body: CustomScrollView(
+        slivers: [
+          GraoAppBar(),
+          ProductPageBody(),
+        ],
+      ),
+    );
   }
 }
