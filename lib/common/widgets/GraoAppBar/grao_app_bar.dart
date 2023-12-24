@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:graodegente/common/GraoAppBar/widgets/app_bar_text_field.dart';
+import 'package:graodegente/common/widgets/GraoAppBar/widgets/app_bar_text_field.dart';
 
 class GraoAppBar extends StatelessWidget {
   const GraoAppBar({super.key});
