@@ -7,10 +7,10 @@ class GraoAppBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SliverAppBar(
-      pinned: true,
       elevation: 0,
       toolbarHeight: 125,
       backgroundColor: Colors.cyan,
+      floating: true,
       centerTitle: true,
       title: Column(
         children: [
