@@ -51,7 +51,7 @@ class _ProductPageCarouselState extends State<ProductPageCarousel> {
               child: Container(
                 width: (MediaQuery.of(context).size.width /
                         ProductConsts.productPhotos.length) -
-                    16,
+                    14,
                 height: 2,
                 margin: const EdgeInsets.symmetric(
                   vertical: 19.0,
