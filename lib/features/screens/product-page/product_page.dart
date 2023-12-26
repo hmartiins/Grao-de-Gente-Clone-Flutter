@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:graodegente/common/widgets/GraoAppBar/grao_app_bar.dart';
+import 'package:graodegente/common/widgets/GraoFooter/grao_footer.dart';
 import 'package:graodegente/features/screens/product-page/widgets/product_page_body.dart';
 
 class ProductPage extends StatelessWidget {
@@ -12,6 +13,7 @@ class ProductPage extends StatelessWidget {
         slivers: [
           GraoAppBar(),
           ProductPageBody(),
+          GraoFooter(),
         ],
       ),
     );
